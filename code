@@ -9,6 +9,7 @@
 	<style>
 	@font-face{font-family:"Guardian Text Egyptian Web";src:url("//pasteup.guim.co.uk/fonts/0.1.0/hinting-on/kerning-on/original/GuardianTextEgyptianWeb/GuardianTextEgyptianWeb-Regular.eot");src:url("//pasteup.guim.co.uk/fonts/0.1.0/hinting-on/kerning-on/original/GuardianTextEgyptianWeb/GuardianTextEgyptianWeb-Regular.eot?#iefix") format("embedded-opentype"),url("//pasteup.guim.co.uk/fonts/0.1.0/hinting-on/kerning-on/original/GuardianTextEgyptianWeb/GuardianTextEgyptianWeb-Regular.woff2") format("woff2"),url("//pasteup.guim.co.uk/fonts/0.1.0/hinting-on/kerning-on/original/GuardianTextEgyptianWeb/GuardianTextEgyptianWeb-Regular.woff") format("woff"),url("//pasteup.guim.co.uk/fonts/0.1.0/hinting-on/kerning-on/original/GuardianTextEgyptianWeb/GuardianTextEgyptianWeb-Regular.ttf") format("truetype"),url("//pasteup.guim.co.uk/fonts/0.1.0/hinting-on/kerning-on/original/GuardianTextEgyptianWeb/GuardianTextEgyptianWeb-Regular.svg#GuardianTextEgyptianWeb-Regular") format("svg");font-weight:400;font-style:normal;font-stretch:normal}
 	@font-face{font-family:"Guardian Egyptian Web";src:url("//pasteup.guim.co.uk/fonts/0.1.0/hinting-on/kerning-on/original/GuardianEgyptianWeb/GuardianEgyptianWeb-Semibold.eot");src:url("//pasteup.guim.co.uk/fonts/0.1.0/hinting-on/kerning-on/original/GuardianEgyptianWeb/GuardianEgyptianWeb-Semibold.eot?#iefix") format("embedded-opentype"),url("//pasteup.guim.co.uk/fonts/0.1.0/hinting-on/kerning-on/original/GuardianEgyptianWeb/GuardianEgyptianWeb-Semibold.woff2") format("woff2"),url("//pasteup.guim.co.uk/fonts/0.1.0/hinting-on/kerning-on/original/GuardianEgyptianWeb/GuardianEgyptianWeb-Semibold.woff") format("woff"),url("//pasteup.guim.co.uk/fonts/0.1.0/hinting-on/kerning-on/original/GuardianEgyptianWeb/GuardianEgyptianWeb-Semibold.ttf") format("truetype"),url("//pasteup.guim.co.uk/fonts/0.1.0/hinting-on/kerning-on/original/GuardianEgyptianWeb/GuardianEgyptianWeb-Semibold.svg#GuardianEgyptianWeb-Semibold") format("svg");font-weight:900;font-style:normal;font-stretch:normal}
+	
 	body {
 		margin: 0;
 		padding: 0;
@@ -33,6 +34,7 @@
 		        box-sizing: border-box;
 		border-top: 4px solid #E6711B;
 	}
+	
 	.mainContainer .gia-intro h3 {
 		font-family: "Guardian Egyptian Web", serif;
 		font-size: 20px;
@@ -44,6 +46,7 @@
 		position: relative;
 		margin: 0;
 	}
+	
 	.gia-intro  {
 		float:left;
 		position: relative;
@@ -62,14 +65,6 @@
 				
 	}
 	
-	.topImg {
-		width: 100px;
-		height:66.66667px;
-		
-		margin: 0 15px 0 0;
-		position: relative;
-		float: left;
-	}	
 	.eventContent {
 		display: inline-block;  
 		line-height: 18px; 
@@ -80,9 +75,11 @@
 			    box-sizing: border-box;
 		padding-right: 10px;
 	}
+	
 	.gia-title{
 		font-weight: 900;
 	}
+	
 	.introContent {
 		line-height: 18px;
 		float: left;
@@ -92,8 +89,6 @@
 		-webkit-box-sizing: border-box;
 		   -moz-box-sizing: border-box;
 		        box-sizing: border-box;
-		
-		/*padding: 0 15px 0 0 ;*/
 	}
 						
 	</style>
@@ -126,11 +121,6 @@
  <div class='eventContent bin-3'> 
    <textarea class="tweetbox" cols="50" rows="5">@thrasherxy [Short-url here]</textarea>
    </div><br>
-
-        
-			<div class='eventContent bin-6'>
-  <input type="submit" value="Tweet">
-			</div><br>
         
 <div class='eventContent bin-4'><a href="https://twitter.com/share" class="twitter-share-button" data-text="This is the text they will" data-via="thrasherxy" data-size="large" data-related="GOP" data-count="none" data-hashtags="banadvancedplacement" data-dnt="true">Tweet</a>
 </div>        
